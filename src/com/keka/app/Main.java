@@ -9,6 +9,8 @@ public class Main {
 	public static void main(String[] args) {
 		
 		AdminDepartment ad = new AdminDepartment();
+		HrDepartment hd = new HrDepartment();
+		TechDepartment td = new TechDepartment();
 		
 		System.out.println("Admin Department Details:");
 		System.out.println();
@@ -18,7 +20,6 @@ public class Main {
 		System.out.println(ad.isTodayAHoliday());
 		
 		System.out.println();
-		HrDepartment hd = new HrDepartment();
 		
 		System.out.println("Hr Department Details:");
 		System.out.println();
@@ -29,7 +30,6 @@ public class Main {
 		System.out.println(hd.isTodayAHoliday());
 		
 		System.out.println();
-		TechDepartment td = new TechDepartment();
 		
 		System.out.println("Tech Department Details:");
 		System.out.println();
